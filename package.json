@@ -1,0 +1,18 @@
+{
+  "name": "node-vger",
+  "version": "1.0.0",
+  "author": {
+    "name": "Prashant Chaudhari",
+    "email": "prashant.chaudhari89@gmail.com"
+  },
+  "description": "Vger for NodeJS",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prcongithub/node-vger.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "index.js"
+}
