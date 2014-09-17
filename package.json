@@ -5,7 +5,7 @@
     "name": "Prashant Chaudhari",
     "email": "prashant.chaudhari89@gmail.com"
   },
-  "description": "Vger for NodeJS",
+  "description": "ORM that maps REST resources to JavaScript Objects",
   "contributors": [],
   "repository": {
     "type": "git",
