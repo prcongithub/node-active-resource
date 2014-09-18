@@ -11,6 +11,10 @@
     "type": "git",
     "url": "https://github.com/prcongithub/node-vger.git"
   },
+  "dependencies": {
+    "node-extend": "*",
+    "qs": "0.6.5"
+  },
   "engines": {
     "node": ">=0.8.0"
   },
