@@ -42,15 +42,6 @@ Sample Resource:
 ```
 
 
-Tech
------------
-
-Node-Vger uses a number of open source projects to work properly:
-
-* [HTTP] - HTTP in NodeJS
-* [Node-Extend] - node-extend is a port of the classic extend() method from jQuery.
-* [QS] - A querystring parser that supports nesting and arrays, with a depth limit
-
 Installation
 --------------
 
@@ -63,6 +54,27 @@ dependencies: {
 # terminal
 # cd to your app
 npm install
+```
+
+**Well this module is in a very primitive stage and open for contributions**
+
+  - Fork git@github.com:prcongithub/node-vger.git
+  - Create a feature branch
+  - Send a Pull Request
+
+  
+Test App
+------------------------
+
+
+```
+    # Assuming you have cloned node-vger already
+    cd /path/to/node-vger/
+    sudo npm link
+    
+    git clone git@github.com:prcongithub/node-vger-test-app.git
+    npm link node-vger
+    nodemon app.js
 ```
 
 
