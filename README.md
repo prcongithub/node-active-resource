@@ -14,7 +14,7 @@ Setup
 ```
 # vger.js
 var options = {
-  host: "api.jombaylocal.com",
+  host: "api.yourdomain.com",
   port: 80
 };
 
