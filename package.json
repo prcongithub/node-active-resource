@@ -1,5 +1,5 @@
 {
-  "name": "node-vger",
+  "name": "node-active-resource",
   "version": "1.0.0",
   "author": {
     "name": "Prashant Chaudhari",
@@ -9,7 +9,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/prcongithub/node-vger.git"
+    "url": "https://github.com/prcongithub/node-active-resource.git"
   },
   "dependencies": {
     "extend": "*",
