@@ -1,13 +1,13 @@
-Node-Vger
+Node-Active-Resource
 =========
 
 -----
-Node-Vger is an ORM (Object Relational Mapper) that maps RESTful Resources to Javascript Objects in NodeJS.
+Node-Active-Resource is an ORM (Object Relational Mapper) that maps RESTful Resources to Javascript Objects in NodeJS.
 
   - Inspired by [HER]
   - Access API resources without having to make HTTP requests on your own.
 
-Node-Vger allows you to define API resources on your front-end application and access them using ORM like features.
+Node-Active-Resource allows you to define API resources on your front-end application and access them using ORM like features.
 
 Setup
 ----
@@ -18,7 +18,7 @@ var options = {
   port: 80
 };
 
-var nodeVger = require('node-vger')(options);
+var nodeVger = require('node-active-resource')(options);
 
 var resources = require("./resources")
 
@@ -35,7 +35,7 @@ Lets see how define a Resource now
 Sample Resource:
 
 ```
-  var Resource = require('node-vger').Resource;
+  var Resource = require('node-active-resource').Resource;
   var User = Resource.define_resource({
     collectionPath: "/users"
   })
@@ -48,7 +48,7 @@ Installation
 ```sh
 # package.json
 dependencies: {
-  "node-vger": "git://github.com/prcongithub/node-vger.git"
+  "node-active-resource": "git://github.com/prcongithub/node-active-resource.git"
 }
 
 # terminal
@@ -58,7 +58,7 @@ npm install
 
 **Well this module is in a very primitive stage and open for contributions**
 
-  - Fork git@github.com:prcongithub/node-vger.git
+  - Fork git@github.com:prcongithub/node-active-resource.git
   - Create a feature branch
   - Send a Pull Request
 
@@ -68,12 +68,12 @@ Test App
 
 
 ```
-    # Assuming you have cloned node-vger already
-    cd /path/to/node-vger/
+    # Assuming you have cloned node-active-resource already
+    cd /path/to/node-active-resource/
     sudo npm link
     
-    git clone git@github.com:prcongithub/node-vger-test-app.git
-    npm link node-vger
+    git clone git@github.com:prcongithub/node-active-resource-test-app.git
+    npm link node-active-resource
     nodemon app.js
 ```
 
