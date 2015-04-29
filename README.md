@@ -29,7 +29,7 @@ var vger = require('vger');
 Simple isn't it.
 --
 
-Lets see how define a Resource now
+Lets see how to define a Resource now
 ----
 
 Sample Resource:
