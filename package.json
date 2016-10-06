@@ -1,6 +1,6 @@
 {
   "name": "node-active-resource",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Prashant Chaudhari <prashant.chaudhari89@gmail.com>",
   "description": "ORM that maps REST resources to JavaScript Objects",
   "contributors": [],
