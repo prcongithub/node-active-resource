@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "extend": "*",
-    "qs": "6.0.2",
+    "qs": "6.0.4",
     "underscore": "1.5.2",
     "underscore.string": "^3.3.5"
   },
