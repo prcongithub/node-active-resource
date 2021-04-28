@@ -1,6 +1,6 @@
 {
   "name": "node-active-resource",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "author": "Prashant Chaudhari <prashant.chaudhari89@gmail.com>",
   "description": "ORM that maps REST resources to JavaScript Objects",
   "contributors": [],
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "extend": "*",
-    "qs": "^6.9.6",
+    "qs": "6.10.1",
     "underscore": "1.5.2",
     "underscore.string": "^3.3.5"
   },
