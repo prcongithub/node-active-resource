@@ -11,7 +11,7 @@
   "dependencies": {
     "extend": "*",
     "qs": "6.9.6",
-    "underscore": "1.5.2",
+    "underscore": "1.12.1",
     "underscore.string": "^3.3.5"
   },
   "engines": {
